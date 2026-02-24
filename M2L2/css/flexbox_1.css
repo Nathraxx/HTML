@@ -32,10 +32,44 @@ body {
 	margin-left: auto;
 	/* change to margin-left; to move to the last item to the far right */
 }
+/* Portrait mode */
+@media (orientation: portrait) {
+  .MenuWrap {
+    position: fixed;      /* <-- this is the missing piece */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: auto;
 
-/*
-.ListItem,
-.LastItem {
-	background-color: gray;
+    width: 12rem;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 1rem;
+    overflow-y: auto;     /* if the list gets long */
+  }
+
+  .ListItem,
+  .LastItem {
+    width: 100%;          /* optional: full clickable row */
+    padding: 0.5rem 0;    /* spacing so it doesn't clump */
+  }
+
+  .ListItem {
+    margin-right: 0;      /* remove horizontal spacing */
+  }
+
+  .LastItem {
+    margin-left: 0;
+    margin-top: auto;     /* pushes it to the bottom */
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    padding-left: 12rem;  /* shift page content right */
+  }
 }
-*/

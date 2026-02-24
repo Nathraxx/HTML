@@ -6,14 +6,14 @@ body {
 
 .FlexWrap {
   color: #fff;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'comic', sans-serif;
   height: 100%;
   width: 100vw;
   padding: 20px;
    
   display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: nowrap;        /* test with wrap nowrap */
+  flex-direction: row-reverse;  /* test with row row-reverse column column-reverse */
+  flex-wrap: wrap;        /* test with wrap nowrap */
   justify-content:space-around;
 }
 
@@ -22,10 +22,12 @@ body {
   width: 300px;     /* fixed size will demonstrate the wrap */
   display:flex;
   justify-content:center;
-  align-items: center;
+  
+  display :flex;
+  align-items :center;
 }
 .Red {
-  background: orangered;
+  background: red;
 }
 .Green {
   background: yellowgreen;
