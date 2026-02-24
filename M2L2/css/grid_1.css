@@ -1,5 +1,5 @@
 .my-first-grid {
-  display: grid;
+  display: inline-grid;
   grid-gap: 10px;
   grid-template-rows: 200px 200px 200px;
   grid-template-columns:  auto auto auto auto;
