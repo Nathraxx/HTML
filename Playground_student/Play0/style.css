@@ -1,0 +1,22 @@
+h1 {
+
+ color: rgb(185, 127, 240);
+    font-size: 3rem;
+    text-align: center;
+
+}
+   
+h2 {
+    color: blue;
+    font-size: 2rem;
+    text-align: center;
+}
+
+body {
+    padding: 1rem 0.5rem;
+    font-size: 1.3rem;
+    line-height: 1.2;
+     color: darkred;
+
+}
+

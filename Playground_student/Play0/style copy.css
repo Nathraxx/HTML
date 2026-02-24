@@ -1,0 +1,15 @@
+@media screen and (max-width: 690px) {
+    h1 {
+        color: coral;
+    }
+    
+    h2 {
+        color: darkblue;
+    }
+    
+    body {
+        color: rgb(255, 0, 0);
+    }
+}
+
+
